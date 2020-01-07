@@ -66,4 +66,17 @@ d['abi']='joy'
 print(d)
 print(d.get('abi'))
 print(d[0])
+del d[0]
+print(d)
+d.pop(4)
+print(d)
+d.popitem()
+print(d)
+d['A']={1:"abin",2:"kom",3:"kav"}
+print(d)
+del d ['A'][3]
+print(d)
+d.clear()
+print(d)
 =============================================================================================================================
+
