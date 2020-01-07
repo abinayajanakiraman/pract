@@ -4,3 +4,8 @@ tot=0
 for i in range(len(l)):
     tot=tot+i
 print((tot))
+
+# approach 2
+l=[1,2,3,4]
+tot=sum(l)
+print(tot)
