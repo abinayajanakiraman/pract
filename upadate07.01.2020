@@ -9,3 +9,16 @@ print((tot))
 l=[1,2,3,4]
 tot=sum(l)
 print(tot)
+
+#leap year
+n=int(input("enter the n value "))
+if (n%4)==0:
+    if (n%100)==0:
+        if(n%400)==0:
+            print("{} is a leap year".format(n))
+        else:
+            print("{} is not a leap year".format(n))
+    else:
+        print("{} is  a leap year".format(n))
+else:
+    print("{} is not a leap year".format(n))
